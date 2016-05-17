@@ -1,0 +1,35 @@
+body {
+    padding-top: 50px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.footer {
+    margin-bottom: 25px;
+}
+
+.img-side {
+    width: 100%;
+} 
+
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+
+.table>tbody>tr>td>i {
+    font-size: 60px;
+}
+
+#map {
+    padding: 30px;
+}
+
+#map > #container {
+    height: 400px;
+}
+
+.header-bg {
+    background: url("/img/lg-1.jpg") no-repeat 0 -320px/100%;
+}
