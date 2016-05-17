@@ -31,5 +31,5 @@ body {
 }
 
 .header-bg {
-    background: url("/img/lg-1.jpg") no-repeat 0 -320px/100%;
+    background: url("img/lg-1.jpg") no-repeat 0 -320px/100%;
 }
