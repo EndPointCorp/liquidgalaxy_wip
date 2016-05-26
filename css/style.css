@@ -31,15 +31,15 @@ body {
 }
 
 .header-bg {
-    background: url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat 0 -100px/100%;
+    background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat 0 -100px/100%;
 }
 
 .header-bg h1 {
     color: white;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 1px 1px 5px black;
 }
 
 .subtitle {
     color: white;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 1px 1px 5px black;
 }
