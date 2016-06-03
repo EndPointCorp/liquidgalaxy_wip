@@ -43,3 +43,17 @@ body {
     color: white;
     text-shadow: 1px 1px 5px black;
 }
+
+@media (max-width: 767px) {
+    .header-bg {
+        background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat -250px 0/250%;
+    }
+    #map {
+        padding: 30px 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header-bg {
+        background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat -75px -40px/150%;
+}
