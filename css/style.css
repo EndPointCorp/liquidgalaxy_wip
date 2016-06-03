@@ -58,3 +58,9 @@ body {
         padding: 30px 50px;
     }
 }
+
+@media (max-width: 320px) {
+    .header-bg {
+        background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat -275px 0/275%;
+    }
+}
