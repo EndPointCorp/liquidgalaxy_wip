@@ -1,10 +1,9 @@
 var map = L.map( $('#map > #container').get(0) ).setView([30, -10], 2);
 
-L.tileLayer('https://otile{s}-s.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg', {
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+L.tileLayer('https://www-{s}.endpoint.com/osm/{s}/{z}/{x}/{y}.png', {
+    attribution: 'Map data © <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors',
     minZoom: 2,
-    maxZoom: 18,
-    subdomains: '1234',
+    maxZoom: 18
 }).addTo(map);
 
 var installations = [
