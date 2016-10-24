@@ -50,10 +50,6 @@ body {
     margin: auto;
 }
 
-.code-section {
-    height: 80px;
-}
-
 @media (max-width: 1024px) {
     .header-bg {
         background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat -75px -40px/150%;
