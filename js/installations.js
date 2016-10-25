@@ -464,6 +464,12 @@ var installations = [
         place: 'Düsseldorf, Germany',
     },
     {
+        latitude: '41.616667',
+        longitude: '0.633333',
+        title: 'Lleida University',
+        place: 'Lleida, Spain',
+    },
+    {
         latitude: '52.516667',
         longitude: '13.383333',
         title: 'Google',
