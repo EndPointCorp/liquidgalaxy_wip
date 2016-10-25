@@ -14,14 +14,6 @@ body {
     width: 100%;
 } 
 
-.table>tbody>tr>td {
-    vertical-align: middle;
-}
-
-.table>tbody>tr>td>i {
-    font-size: 60px;
-}
-
 #map {
     padding: 30px;
 }
@@ -50,6 +42,19 @@ body {
     margin: auto;
 }
 
+td {
+    width: 50%;
+    padding: 0 10px 0 0;
+}
+
+.code-table {
+    display: inline;
+}
+
+.code-text {
+    display: none;
+}
+
 @media (max-width: 1024px) {
     .header-bg {
         background: url("/liquidgalaxy_wip/img/black35.png") repeat 0 0, url("/liquidgalaxy_wip/img/lg-0.jpg") no-repeat -75px -40px/150%;
@@ -62,6 +67,12 @@ body {
     }
     #map {
         padding: 30px 50px;
+    }
+    .code-table {
+        display: none;
+    }
+    .code-text {
+        display: inline;
     }
 }
 
